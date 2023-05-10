@@ -43,7 +43,7 @@ const Home = () => {
               Computer Science Student at Cardiff University
             </p>
             <p className="text-md font-light text-gray-400 ">
-              I'm an Enthusiastic and motivated self-learning in Information
+              I'm an enthusiastic and motivated self-learning in Information
               Technology. Interested in exploring Software Engineering and
               Data Analyst opportunities.
             </p>

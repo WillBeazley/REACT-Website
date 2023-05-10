@@ -6,8 +6,7 @@ export default function Footer(){
       <ul className="text-center">
         <li><a href="#home" className="hover:underline">About</a></li>
         <li><a href="#skills" className="hover:underline">Skills</a></li>
-        <li><a href="#honors" className="hover:underline">Honor & Awards</a></li>
-        <li><a href="#certs" className="hover:underline">Certfications</a></li>
+        <li><a href="#cprojects" className="hover:underline">My Projects</a></li>
       </ul>
 
       <p className="text-sm font-light text-center">Copyright © 2023 William Beazley.</p>

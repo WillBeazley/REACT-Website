@@ -24,22 +24,27 @@ export default function Skills() {
       };
 
     return (
-        <div id="skills" className="mt-4 bg-dark-500 text-white">
+        <>
+        <div id="skills">
+            <p>sdasd</p>
+        </div>
+        <div className="mt-4 bg-dark-500 text-white ">
             <h1 className="text-2xl font-bold">Skills</h1>
             <p className="font-light text-gray-400">Here are some of my skills</p>
 
             <div className="mt-4">
                 <Slider {...settings}>
-                    <SkillCard name="Python" experience="4 years" img={python} />
-                    <SkillCard name="Java" experience="2 years" img={java} />
-                    <SkillCard name="HTML" experience="2 years" img={html} />
-                    <SkillCard name="CSS" experience="2 years" img={css} />
-                    <SkillCard name="GitHub" experience="2 years" img={github} />
+                    <SkillCard name="Python" experience="5 years" img={python} />
+                    <SkillCard name="Java" experience="3 years" img={java} />
+                    <SkillCard name="HTML" experience="3 years" img={html} />
+                    <SkillCard name="CSS" experience="3 years" img={css} />
+                    <SkillCard name="GitHub" experience="3 years" img={github} />
                     <SkillCard name="Scikit-learn" experience="1 year" img={scikit} />
                     <SkillCard name="MongoDB" experience="1 year" img={mongodb} />
                 </Slider>
             </div>
-            <img src={line} className="w-full mt-8 md:h-2" alt="line" />
+            <img src={line} className="w-full mt-14 mb-14 md:h-2" alt="line" />
         </div>
+        </>
     )
 }
