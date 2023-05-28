@@ -15,11 +15,11 @@ export default function Projects(){
                 to determine predicted points for each premier league player each week. Training each position individually to find 
                 the optimal algorithm. Vigirous testing and end results were documented through a report - 
                 This project was my last year dissertation for my degree at Cardiff Universtiy" 
-                image={python}/>
+                image={python} link="https://github.com/WillBeazley/FPL-ML"/>
                 <ProjectCard name="First REACT Website" completed="TBD" desc="This website was created using React and Tailwind CSS
                 to showcase my skills and projects. This website is still a work in progress and will be updated as I contribute to more 
                 projects" 
-                image={react}/>
+                image={react} link="https://github.com/WillBeazley/REACT-Website"/>
             </div>
             <img src={line} className="w-full mt-8 md:h-2" alt="line" />
         </div>
