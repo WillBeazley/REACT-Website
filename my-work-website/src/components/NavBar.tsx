@@ -23,6 +23,7 @@ const NavBar = () => {
             </a>
           </li>
         </ul>
+        <a href=""></a>
         <a
           href={CV}
           rel="noreferrer"
